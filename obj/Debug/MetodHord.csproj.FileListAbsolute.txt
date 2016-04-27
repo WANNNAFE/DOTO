@@ -1,1 +1,13 @@
 c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\bin\Debug\MetodHord.exe.config
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\bin\Debug\MetodHord.exe
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\bin\Debug\MetodHord.pdb
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.csprojResolveAssemblyReference.cache
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MainWindow.baml
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MainWindow.g.cs
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\App.g.cs
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord_MarkupCompile.cache
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.g.resources
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.Properties.Resources.resources
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.csproj.GenerateResource.Cache
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.exe
+c:\users\wannnafe\documents\visual studio 2012\Projects\MetodHord\MetodHord\obj\Debug\MetodHord.pdb
