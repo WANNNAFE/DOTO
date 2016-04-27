@@ -5,7 +5,7 @@
     <Grid Margin="0,0,-38,0">
         <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
-        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="31" Margin="48,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="31" Margin="48,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Левая граница отрезка"/>
         <Grid>
             <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
             <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
@@ -14,14 +14,14 @@
         <Grid>
             <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
             <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
-            <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Height="31" Margin="294,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
+            <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Height="31" Margin="294,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Точность поиска решения"/>
 
         </Grid>
         <Grid>
-            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
-            <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
-            <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="31" Margin="172,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
-            <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Height="28" Margin="48,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Text="0"/>
+            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469" ToolTip="Здесь мы должны вводить функцию, нопока такого функционала нет("/>
+            <Button Content="Ок" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1" ToolTip="Получить ответ"/>
+            <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="31" Margin="172,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Правая граница отрезка"/>
+            <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Height="28" Margin="48,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Text="0" ToolTip="Ответ"/>
 
         </Grid>
 
