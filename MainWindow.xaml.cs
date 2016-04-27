@@ -49,7 +49,7 @@ namespace MetodHord
             a = Convert.ToDouble(TextBox1.Text);
             b = Convert.ToDouble(TextBox2.Text);
             c = Convert.ToDouble(TextBox3.Text);
-            TextBlock1.Text=Convert.ToString(findRoot(a, b, c));
+            TextBlock1.Text=Convert.ToString(Convert.ToInt64(findRoot(a, b, c)/c)*c);
 
         }
     }
