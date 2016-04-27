@@ -20,7 +20,7 @@ namespace MetodHord
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        double a, b, c;
         double f(double x)
             {
                 return Math.Pow(x,3)-0.2*Math.Pow(x,2)+0.2*x-1.2;
@@ -43,5 +43,14 @@ namespace MetodHord
  
              }
          }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(TextBox1.Text);
+            b = Convert.ToDouble(TextBox2.Text);
+            c = Convert.ToDouble(TextBox3.Text);
+            TextBlock1.Text=Convert.ToString(findRoot(a, b, c));
+
+        }
     }
 }

@@ -4,11 +4,26 @@
         Title="MainWindow" Height="350" Width="557.971">
     <Grid Margin="0,0,-38,0">
         <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="48,152,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="175,152,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="302,152,0,0" TextWrapping="Wrap" Text="0.1" VerticalAlignment="Top" Width="101"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021"/>
-        <TextBox HorizontalAlignment="Left" Height="31" Margin="48,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="31" Margin="48,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
+        <Grid>
+            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
+
+        </Grid>
+        <Grid>
+            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
+            <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Height="31" Margin="294,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
+
+        </Grid>
+        <Grid>
+            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
+            <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="31" Margin="172,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101"/>
+            <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Height="28" Margin="48,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Text="0"/>
+
+        </Grid>
 
     </Grid>
 </Window>
