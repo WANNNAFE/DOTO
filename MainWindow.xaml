@@ -3,25 +3,48 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="557.971">
     <Grid Margin="0,0,-38,0">
-        <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
         <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="31" Margin="48,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Левая граница отрезка"/>
         <Grid>
-            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
             <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
 
         </Grid>
         <Grid>
-            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="469"/>
             <Button Content="Button" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1"/>
             <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Height="31" Margin="294,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Точность поиска решения"/>
 
         </Grid>
         <Grid>
-            <TextBox HorizontalAlignment="Left" Height="36" Margin="48,55,0,0" TextWrapping="Wrap" Text="X^3-0,2*X^2+0,2*X+1.2" VerticalAlignment="Top" Width="469" ToolTip="Здесь мы должны вводить функцию, нопока такого функционала нет("/>
             <Button Content="Ок" HorizontalAlignment="Left" Height="30" Margin="414,152,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.961,1.021" Click="Button_Click_1" ToolTip="Получить ответ"/>
             <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="31" Margin="172,151,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="101" ToolTip="Правая граница отрезка"/>
             <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Height="28" Margin="48,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Text="0" ToolTip="Ответ"/>
+            <TextBox x:Name="TextBox11" HorizontalAlignment="Left" Height="23" Margin="30,74,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" ToolTip="Левая граница отрезка"/>
+            <TextBox x:Name="TextBox15" HorizontalAlignment="Left" Height="23" Margin="414,73,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" ToolTip="Левая граница отрезка"/>
+            <TextBox x:Name="TextBox14" HorizontalAlignment="Left" Height="23" Margin="320,74,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" ToolTip="Левая граница отрезка"/>
+            <TextBox x:Name="TextBox13" HorizontalAlignment="Left" Height="23" Margin="220,73,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" ToolTip="Левая граница отрезка"/>
+            <TextBox x:Name="TextBox12" HorizontalAlignment="Left" Height="23" Margin="123,74,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" ToolTip="Левая граница отрезка"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="y=" VerticalAlignment="Top" Width="33" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="90,72,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="99,72,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="9" FontSize="10"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="380,72,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="282,73,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Width="9" FontSize="16" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-1.941"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="183,74,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="296,74,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="9" FontSize="10"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="197,72,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="9" FontSize="10"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="90,72,0,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="394,74,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="305,74,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="206,74,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" Width="9" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="23" Margin="109,73,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" Width="9" FontSize="16"/>
 
         </Grid>
 
